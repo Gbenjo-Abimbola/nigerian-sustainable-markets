@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology — Nigerian Sustainable Markets Initiative</title>
+<meta name="description" content="Universe, selection, weighting, rebalancing, return calculation, robustness tests and limitations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="shell masthead-inner">
+    <a class="wordmark" href="index.html">
+      <strong>Nigerian Sustainable Markets Initiative</strong>
+      <span>Independent research on sustainable investing</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="esg-20-index.html">ESG 20 Index</a>
+      <a href="methodology.html" aria-current="page">Methodology</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="shell">
+    <h1>Methodology</h1>
+    <p>Every rule below is fixed before the portfolio is formed. Nothing is chosen after seeing returns.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="shell split">
+    <div class="prose">
+      <h2>Universe</h2>
+      <p>The starting universe is companies listed on the Nigerian Exchange that carry a publicly disclosed ESG rating from an independent ratings provider. Issuers without a published rating cannot enter, which is itself a limitation of the approach and is reported as one.</p>
+
+      <h2>Selection</h2>
+      <p>Constituents are the twenty highest-rated issuers in that universe at the formation date, subject to a listing and trading history requirement so that a full price and dividend series exists across the test window. No sector caps are applied in the base case; the effect of that choice is tested separately.</p>
+
+      <h2>Weighting</h2>
+      <p>The base case uses equal weighting at each rebalance. Equal weighting keeps the test honest about what is being measured &mdash; the rating signal rather than the size of a handful of large issuers &mdash; and avoids concentration in the heaviest names on the exchange.</p>
+
+      <h2>Rebalancing</h2>
+      <p>Annual, at the formation anniversary, using the ratings published as at that date. Constituents that leave the rated universe or are suspended are replaced at the following rebalance rather than intra-period.</p>
+
+      <h2>Return calculation</h2>
+      <p>Total return in naira, with dividends reinvested on the ex-date. Returns are gross of fees, taxes and transaction costs, so a live tracking portfolio would earn less. Benchmarks are the NGX All Share Index, the NGX 30 and the NGX Banking Index over identical dates.</p>
+
+      <h2>Robustness</h2>
+      <p>The headline result is re-run under eight variants: quarterly and semi-annual rebalancing, portfolios of ten and thirty constituents, removal of the single largest contributor, removal of the top three contributors, and removal of the banking sector in full. The direction of the result holds in each case, with the margin narrowing under the most demanding variants.</p>
+
+      <h2>Limitations</h2>
+      <p>One market, one window, and a window that included a currency devaluation and an unusual equity repricing. Ratings coverage is incomplete and the rating provider's own methodology is an input we do not control. Liquidity limits how much capital could realistically track the portfolio. These constraints are stated in full in the paper rather than footnoted away.</p>
+    </div>
+
+    <aside>
+      <div class="callout">
+        <p><b>Data sources</b></p>
+        <p>Price and dividend history from the Nigerian Exchange. ESG ratings from a publicly released third-party ratings report. Risk-free proxy set at 18%, in line with Nigerian Treasury yields over the window.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-dark" href="papers/ngx-esg-20-executive-edition.pdf">Full methodology (PDF)</a>
+        <a class="btn btn-line" href="contact.html">Ask a question</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="shell">
+    <div class="foot-grid">
+      <div>
+        <h3>Nigerian Sustainable Markets Initiative</h3>
+        <p>Independent research, market intelligence and benchmark development for sustainable investing in Nigeria.</p>
+      </div>
+      <div>
+        <h4 style="color:#fff;">Research</h4>
+        <ul>
+          <li><a href="esg-20-index.html">ESG 20 Index</a></li>
+          <li><a href="methodology.html">Methodology</a></li>
+          <li><a href="research.html">Publications</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:#fff;">Contact</h4>
+        <ul>
+          <li><a href="mailto:research@nigeriansustainablemarkets.org">research@nigeriansustainablemarkets.org</a></li>
+          <li>Lagos, Nigeria</li>
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot-note">Research published for information only. Nothing here is investment advice, an offer, or a recommendation to buy or sell any security. The Initiative is not affiliated with, endorsed by or licensed by Nigerian Exchange Group Plc or its indices. &copy; 2026 Nigerian Sustainable Markets Initiative.</p>
+  </div>
+</footer>
+
+</body>
+</html>
